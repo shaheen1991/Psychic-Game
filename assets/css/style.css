@@ -1,0 +1,89 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    background-image: url("http://cdn.playbuzz.com/cdn/df29ac26-1d43-4c9c-899e-2857d6a24151/1ce1d955-e7dd-4200-ba27-5d893691c818.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color: rgba(255, 99, 71, 0.753);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    background-color: rgba(14, 196, 14, 0.753);
+    padding: 15px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#wins {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(14, 196, 14, 0.753);
+    width: 200px;
+    padding: 7px;
+    font-size: 30px;
+    margin: 20px;
+    border-style: outset;
+    border-width: 7px;
+    border-color: rgb(17, 216, 17);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#losses {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 99, 71, 0.753);
+    width: 200px;
+    padding: 7px;
+    font-size: 30px;
+    margin: 20px;
+    border-style: outset;
+    border-width: 7px;
+    border-color: rgb(255, 2, 2);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#guessLeft{
+    color: white;
+    background-color: rgba(0, 4, 255, 0.653);
+    width: 200px;
+    padding: 7px;
+    font-size: 30px;
+    margin: 20px;
+    border-style: outset;
+    border-width: 7px;
+    border-color: rgb(0, 0, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#yourguesses{
+    color: white;
+    background-color: rgba(53, 53, 53, 0.663);
+    width: 600px;
+    padding: 7px;
+    font-size: 30px;
+    margin: 20px;
+    border-style: outset;
+    border-width: 7px;
+    border-color: rgba(53, 53, 53);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   
+}
+footer {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 105px;
+    padding: 20px;
+  }
+  
